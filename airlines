@@ -1,0 +1,5 @@
+x,n=map(int,input().split())
+existing_capacity=x*100
+req_planes=(n+99)//100
+new_planes_needed=max(0,req_planes-x)
+print(new_planes_needed)
