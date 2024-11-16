@@ -1,0 +1,5 @@
+p=input().strip()
+if p==p[::-1]:
+    print("TRUE")
+else:
+    print("FALSE")
