@@ -1,0 +1,6 @@
+p=int(input())
+q=int(input())
+if(p&(1<<(q-1)))!=0:
+    print("true")
+else:
+    print("no")
