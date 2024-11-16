@@ -1,0 +1,5 @@
+p,o,i,u=list(map(int,input().split()))
+if p+o>=u or p+i>=u or o+i>=u:
+    print("YES")
+else:
+    print("NO")
