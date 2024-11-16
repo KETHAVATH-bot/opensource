@@ -1,0 +1,3 @@
+g=int(input())
+w=g*10
+print(w)
