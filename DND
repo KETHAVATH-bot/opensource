@@ -1,0 +1,12 @@
+def x(n,m,arr):
+    a=0
+    b=0
+    for num in arr:
+        if num%m==0:
+            b+=num
+        else:
+            a+=num
+    return b-a
+n,m=map(int,input().split())
+arr=list(map(int,input().split()))
+print(x(n,m,arr))
